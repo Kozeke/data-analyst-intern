@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7177d040c57de235ffdd0b360912baaf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7177d040c57de235ffdd0b360912baaf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7177d040c57de235ffdd0b360912baaf = L.map(
+                "map_7177d040c57de235ffdd0b360912baaf",
+                {
+                    center: [51.13262703931126, 71.46310144409014],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c70c0d5f704605ee3ef82d1021ca840d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7177d040c57de235ffdd0b360912baaf);
+        
+    
+            var feature_group_18516301bf601af0dbf43ef8a7add04f = L.featureGroup(
+                {}
+            ).addTo(map_7177d040c57de235ffdd0b360912baaf);
+        
+    
+            var polygon_8a99c34776d189d3db2cfd419d5a4231 = L.polygon(
+                [[51.13262703931126, 71.46310144409014], [51.13442529237494, 71.46883285866362], [51.13669210863505, 71.46732189033297], [51.14720444652653, 71.50398518285925], [51.138993907955175, 71.52507930999728], [51.136651937940044, 71.52292476285372], [51.13617591324752, 71.52450274104338], [51.13003459711195, 71.5209469823736], [51.12671330265032, 71.50874004249334], [51.13394135883085, 71.50390023133582], [51.127378905264344, 71.48058320691445], [51.12759319541547, 71.4799265733402], [51.12675251296806, 71.4782981220761], [51.12686790166097, 71.47677473218386], [51.13107221563946, 71.4788621599881], [51.13214549058507, 71.47427546759673], [51.13262704818271, 71.47388193207955], [51.12994998085171, 71.46495150746732]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_18516301bf601af0dbf43ef8a7add04f);
+        
+    
+            polygon_8a99c34776d189d3db2cfd419d5a4231.bindTooltip(
+                `<div>
+                     Микрорайон Юго-Восток (левая сторона)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_8e6b33b05743015bf2e76931f5f275c9 = L.featureGroup(
+                {}
+            ).addTo(map_7177d040c57de235ffdd0b360912baaf);
+        
+    
+            var polygon_6adbd7715f914fa24ad6adc3a545350a = L.polygon(
+                [[51.136551693265176, 71.41704124748036], [51.14408964341541, 71.42165231424269], [51.14434887720596, 71.42121942518904], [51.14577701672584, 71.42205702266095], [51.146881795961626, 71.42334585144275], [51.14831362129891, 71.42401019062568], [51.150818890827345, 71.4276545696058], [51.14672834961577, 71.43696374015144], [51.145097719203086, 71.43886614132605], [51.14401998973326, 71.43966930404842], [51.14153412047461, 71.43967821735474], [51.13938341234375, 71.4406444148923], [51.138900275264184, 71.43766710801616], [51.13346739280341, 71.43549355044875]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_8e6b33b05743015bf2e76931f5f275c9);
+        
+    
+            polygon_6adbd7715f914fa24ad6adc3a545350a.bindTooltip(
+                `<div>
+                     Микрорайон Чубары
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_03bb3e4df81bcc8b0d579b6dda7d3fc1 = L.featureGroup(
+                {}
+            ).addTo(map_7177d040c57de235ffdd0b360912baaf);
+        
+    
+            var polygon_e1f4b846a441aff2e3c50301f2a16884 = L.polygon(
+                [[51.083718714539316, 71.38954115599252], [51.08234013452997, 71.39931440175747], [51.07967903832841, 71.39834473246486], [51.081763042327864, 71.38890321566844]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_03bb3e4df81bcc8b0d579b6dda7d3fc1);
+        
+    
+            polygon_e1f4b846a441aff2e3c50301f2a16884.bindTooltip(
+                `<div>
+                      
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_bd3042b551a89e46c69181d993d32dfe = L.featureGroup(
+                {}
+            ).addTo(map_7177d040c57de235ffdd0b360912baaf);
+        
+    
+            var polygon_845b2d7306fc111accf1bb2d63a0c129 = L.polygon(
+                [[51.16608878458068, 71.44040607837638], [51.16662806819094, 71.44455345175862], [51.165816620364566, 71.44475439039148], [51.16563517666161, 71.44300220551294], [51.165398290752925, 71.44283341706134], [51.16518156428142, 71.44060701700924]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_bd3042b551a89e46c69181d993d32dfe);
+        
+    
+            polygon_845b2d7306fc111accf1bb2d63a0c129.bindTooltip(
+                `<div>
+                      
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_6af422559a8598bee59b0d4634052b42 = L.featureGroup(
+                {}
+            ).addTo(map_7177d040c57de235ffdd0b360912baaf);
+        
+    
+            var polygon_8d2d76f7972d04d38ad2a14879144c89 = L.polygon(
+                [[51.09425520046857, 71.39940300415068], [51.093406765218056, 71.39909846358167], [51.09357596308582, 71.3979779104623], [51.09441213476266, 71.39831759032775]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(feature_group_6af422559a8598bee59b0d4634052b42);
+        
+    
+            polygon_8d2d76f7972d04d38ad2a14879144c89.bindTooltip(
+                `<div>
+                     Технопарк (Назарбаев Университет)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
